@@ -61,6 +61,11 @@ export default () => {
           ))
         }
       </section>
+
+      <footer>
+        Feito com <span role="img" aria-label="coração">♥</span><br />
+        Direitos de imagem para Netflix<br />
+      </footer>
     </div>
   );
 }
