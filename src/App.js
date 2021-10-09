@@ -66,6 +66,11 @@ export default () => {
         Feito com <span role="img" aria-label="coração">♥</span><br />
         Direitos de imagem para Netflix<br />
       </footer>
+      {movieList <= 0 &&
+        <div className="loading">
+          <img src="https://c.tenor.com/DQyztbEmqnYAAAAC/netflix-loading.gif" />
+        </div>
+      }
     </div>
   );
 }
